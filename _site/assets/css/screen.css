@@ -777,7 +777,7 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 48px;
     padding: 1px 0 5px 0;
     width: auto;
 }
@@ -942,7 +942,7 @@ body.nav-opened .nav {
 /*}*/
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 4.6rem;
 }
 
 .post-title a {
@@ -961,11 +961,11 @@ body:not(.post-template) .post-title {
 
 .post-meta {
     display: block;
-    margin: 1.75rem 0 0 0;
+    margin: 1.75rem 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: #4f5456;
 }
 
 .author-thumb {
@@ -1203,7 +1203,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
+    height: 45vh;
     min-height: 180px;
 }
 
@@ -1555,7 +1555,7 @@ body:not(.post-template) .post-title {
 
 /* On page2+ make all the headers smaller */
 .archive-template .main-header {
-    max-height: 30vh;
+    max-height: 45vh;
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
@@ -1645,7 +1645,7 @@ body:not(.post-template) .post-title {
     }
 
     body:not(.post-template) .post-title {
-        font-size: 3.2rem;
+        font-size: 3.8rem;
     }
 
     hr {
@@ -1899,7 +1899,7 @@ body:not(.post-template) .post-title {
     }
 
     body:not(.post-template) .post-title {
-        font-size: 2.5rem;
+        font-size: 3.0rem;
     }
 
     .post-template .site-footer {

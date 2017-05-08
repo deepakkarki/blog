@@ -7,7 +7,7 @@ tags: speeches
 subclass: 'post tag-speeches'
 categories: 'casper'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo-white.png'
 cover: 'assets/images/cover4.jpg'
 ---
 

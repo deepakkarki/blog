@@ -7,17 +7,33 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: "Karki's Blog"
-description: "It's *my* blog!"
+name: "Deepak Karki | Blog"
+description: "A blog on tech, education, and philosophy. Mostly opinionated."
+
+# Website defaults
+defaults: # This is a keyword - http://jekyllrb.com/docs/configuration/#front-matter-defaults
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      logo: 'assets/images/logo-white.png' # accessible as page.logo
+      cover: 'assets/images/cover1.jpg'    # page.cover
+# -
+#   scope:
+#     path: "projects" # Any html files that exist in the projects/ folder
+#   values:
+#     key1: 'value1'
+#     key2: 'value2'
+
 
 # Author's info
 author: 'Deepak Karki'
 # edit 'categories' in the front matter of every post to match this username
 nickname: 'karki'
-bio: 'I am a developer'
+bio: 'Developer | Maker | Hacker'
 location: 'Bangalore, India'
 url: 'http://deepakkarki.github.io/blog/'
-image: 'assets/images/casper.png'
+image: 'assets/images/profile.jpg'
 
 short_url: 'deepakkarki.github.io/blog/'
 # google_analytics: UA-69281367-1
