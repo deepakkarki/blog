@@ -8,7 +8,7 @@ language: 'en-uk'
 
 # Website info
 name: "Deepak Karki | Blog"
-description: "A blog on tech, education, and philosophy. Mostly opinionated."
+description: "A personal blog on tech, culture, education, and HCI."
 
 # Website defaults
 defaults: # This is a keyword - http://jekyllrb.com/docs/configuration/#front-matter-defaults

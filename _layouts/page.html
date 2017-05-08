@@ -26,29 +26,12 @@ cover: 'assets/images/cover1.jpg'
     </div>
 </header>
 
-<!--
-<header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {% endif %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">{{ site.description }}</h2>
-        </div>
-    </div>
-</header>
--->
 <main class="content" role="main">
     <article class="post">
         <!-- Everything inside the #post tags pulls data from the post -->
 
-        <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+        <header class="post-header" style="text-align: center;padding-bottom: 50px;">
+            <u><h1 class="post-title">{{ page.title }}</h1></u>
         </header>
 
         <section class="post-content">
