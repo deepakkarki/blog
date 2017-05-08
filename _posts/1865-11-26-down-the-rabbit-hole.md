@@ -5,7 +5,7 @@ title: Down The Rabbit Hole
 date:   1865-11-26 10:18:00
 tags: fiction
 subclass: 'post tag-fiction'
-categories: 'casper'
+categories: 'karki'
 navigation: True
 logo: 'assets/images/logo-white.png'
 cover: 'assets/images/cover1.jpg'
